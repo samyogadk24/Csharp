@@ -3,7 +3,7 @@
 using System;
 public class Info
 {
-    public static void Dispay ( )
+    public static void Dispay()
     {
         Console.WriteLine("Name : Samyog Adhikari");
           Console.WriteLine("Age : 18");

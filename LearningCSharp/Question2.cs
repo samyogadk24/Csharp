@@ -4,10 +4,16 @@ using System;
 
 public class Question2
 {
-    public void Sum()
+public static void Main()
     {
-        int a = 10;
-        int b = 5;
+        Question2.Sum(5,5);
+    }
+
+public static void Sum(int a ,int b)
+    {
+        int c = a + b;
+
+        Console.WriteLine($"Sum of two number {a} and {b} is {c}");
         
     }
 }
