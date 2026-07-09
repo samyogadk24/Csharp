@@ -1,12 +1,27 @@
 ﻿using System;
-using Microsoft.VisualBasic;
-class Program
+
+
+ class Program
 {
-    static void Main(string[]args)
+   public static void Main()
     {
        // Console.WriteLine("hello !");
 
-       Info information = new Info();
-       Info.Dispay();
+     
+       // Question1.DisplayInfo();
+
+
+
+    //Question4.DisplayArea();
+
+      //Question5.Swap();
+
+     // Question6.SwapVar();
+
+    // Question7.DisplayPerimeter();
+
+    Question8.DisplaySI();
+    
+
     }
 }
